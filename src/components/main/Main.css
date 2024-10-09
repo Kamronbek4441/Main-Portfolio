@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 113px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.he1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.he2 {
+  display: flex;
+  gap: 40px;
+}
+
+.he3 > button {
+  padding: 10px 20px;
+  background: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.head1 .he2 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  display: flex;
+  gap: 15px;
+}
+
+.main > hr {
+  width: 150dvh;
+}
+
+.head1 .he1 .h1r {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19.6px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ec1b2e;
+}
+
+.head2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 155px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.hea2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.hea2 > .a {
+  color: #333333;
+  text-decoration: none;
+font-size: 15.5px;
+font-weight: 500;
+line-height: 19.6px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
