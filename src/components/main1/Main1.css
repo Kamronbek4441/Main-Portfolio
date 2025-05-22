@@ -231,7 +231,7 @@
 }
 
 .soft-contact {
-  background-color: #ffffff; /* Oq fon */
+  background-color: #ffffff;
   color: #222222;
   padding: 80px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -302,7 +302,7 @@
 
 .contact-form button {
   padding: 14px;
-  background-color: #444; /* Yumshoq qora */
+  background-color: #444; 
   color: #fff;
   font-size: 16px;
   border: none;
@@ -326,17 +326,16 @@
   margin: 10px 0;
   font-size: 16px;
   color: #444;
-  word-wrap: break-word;       /* Matnlarni qatorga ajratish */
-  overflow-wrap: break-word;   /* keng qo'llab-quvvatlanadi */
+  word-wrap: break-word;       
+  overflow-wrap: break-word;   
   line-height: 1.6;
   max-width: 100%;
 }
 
 .contact-details {
-  overflow: hidden; /* Matn tashqariga chiqishini oldini oladi */
+  overflow: hidden; 
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   .contact-layout {
     flex-direction: column;
