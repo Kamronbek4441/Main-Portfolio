@@ -196,49 +196,8 @@ const Main1 = () => {
         </div>
       </section>
       {/* --------------------------------------------------------------------------------------------------- */}
-      <section class="soft-contact" id="aloqa" name="contact">
-        <div class="contact-shell">
-          <h2 class="contact-heading">Contact with Me</h2>
-          <div class="contact-layout">
-            <form class="contact-form">
-              <input type="text" placeholder="Name" required />
-              <input type="email" placeholder="Email address" required />
-              <textarea
-                rows="5"
-                placeholder="Message..."
-                required
-              ></textarea>
-              <button type="submit">Send</button>
-            </form>
-            <div class="contact-details">
-              <h3>Contact Information</h3>
-              <p>
-                <strong>Call Number:</strong> +998 93 177 44 41
-              </p>
-              <p>
-                <strong>Email:</strong> info@Kamronbek.uz
-              </p>
-              <p>
-                <strong>Address:</strong> Namangan, O‘zbekiston
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* ------------------------------------------------------------------------------------------------- */}
-      <footer class="footer">
-        <div class="container footer-content">
-          <div class="footer-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Articles</a>
-            <a href="#">Contact</a>
-          </div>
-          <p>© 2025 Kamronbek Dilshadov All Rights Reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 };
